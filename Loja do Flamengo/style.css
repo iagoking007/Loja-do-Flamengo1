@@ -1,52 +1,38 @@
-body {
-	
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Loja do Flamengo!</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
 
-#banner {
-	width:100%;
-}
+	<body>
+		<header>
+			<h1>Loja Do Flamengo</h1>
+		</header>
+		<img id="banner" src="banner.jpg">
+		<div class="principal">
+			<h2>Sobre a Loja do Flamengo</h2>
+	 
+			<p>Localizada em Curitiba-PR <strong>Loja do Flamengo</strong> tem todas as camisas/uniformes do CRF e todas as informações do clube.</p>
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
+			<p><em>Nosso objetivo é <strong>sempre manter a originalidade dos produtos e manter informado o consumidor</strong>.</em></p>
 
-h1 {
-	text-align: center
-}
+			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+		</div>
 
-p {
-	text-align: center;
-}
+		<div class="beneficios"> 
+			<h3 class="titulo centralizado"><h3>
+			<h3>Benefícios</h3>
 
-#missao {
-	font-size: 20px
-}
+			<ul>
+				<li class="itens">todas as camisas usadas pelo clube durante as temporadas.</li>
+				<li class="itens">diversidades de produtos do clube (informações para encomenda</li>
+				<li class="itens">informações sobre o Flamengo durante sua história (jogadores, jogos, etc...</li>
+				<li class="itens">Profissionais Qualificados</li>
+			</ul>
 
-em strong {
-	color: #FF0000;
-}
-
-.itens {
-	font-style: italic
-}
-
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-	font-size: 35px
-}
-
-h2 {
-	text-align: center;
-}
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
-}
+			<img src="beneficios.jpg" class="imagembeneficios">
+		</div>
+	</body>
+</html>
